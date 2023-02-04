@@ -8,20 +8,20 @@
 ## 파일구조 - MVC Parttern
 
 뷰 페이지  
-`/lib/screens/detail_screen.dart`
-`/lib/screens/home_screen.dart`
+/lib/screens/detail_screen.dart  
+/lib/screens/home_screen.dart  
 
 뷰 페이지의 위젯 리팩토링  
-`/lib/widgets/episode_widget.dart`
-`/lib/widgets/webtoon_widget.dart`
+/lib/widgets/episode_widget.dart  
+/lib/widgets/webtoon_widget.dart  
 
 API와 통신하는 페이지  
-`/lib/services/api_service.dart`
+/lib/services/api_service.dart  
 
 API와 통신하는 페이지에서 객체화시키는 모델 페이지  
-`/lib/models/webtoon_detail_model.dart`
-`/lib/models/webtoon_episode_model.dart`
-`/lib/models/webtoon_model.dart`
+/lib/models/webtoon_detail_model.dart  
+/lib/models/webtoon_episode_model.dart  
+/lib/models/webtoon_model.dart  
 
 <br>
 
