@@ -1,4 +1,4 @@
-# toonflix
+# ✨ toonflix
 
 노마드코더라는 강의에서 만든 네이버 웹툰 API를 통해 data를 fetch 하는 방법을 알 수 있다.
 
@@ -24,7 +24,7 @@ API와 통신하는 페이지에서 객체화시키는 모델 페이지
 
 ---
 
-# API
+# ✨ API
 
 https://webtoon-crawler.nomadcoders.workers.dev/
 
@@ -90,7 +90,7 @@ https://webtoon-crawler.nomadcoders.workers.dev/776255/episodes
 
 ---
 
-# Packages
+# ✨ Packages
 
 ## http
 
