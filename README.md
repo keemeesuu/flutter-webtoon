@@ -1,6 +1,9 @@
 # ✨ toonflix
 
-노마드코더라는 강의에서 만든 네이버 웹툰 API를 통해 data를 fetch 하는 방법을 알 수 있다.
+노마드코더라 강의에서 만든 네이버 웹툰 API를 통해 data를 fetch하는 방법을 알 수 있다.  
+웹툰 페이지에서 웹툰리스트를 외부링크로 연결하는 방법을 알 수 있다.  
+웹툰 페이지를 좋아요 누르고 좋아요 데이터 값을 기기 내부에 저장하는 방법을 알 수 있다.  
+
 
 ## 파일구조 - MVC Parttern
 
@@ -94,7 +97,7 @@ https://webtoon-crawler.nomadcoders.workers.dev/776255/episodes
 
 ## http
 
-http 를 사용하여 GET/POST 방식으로 서버 API를 호출할 수 있다.
+`http` 를 사용하여 GET/POST 방식으로 서버 API를 호출할 수 있다.
 
 path : `/lib/services/api_service.dart`
 
@@ -110,7 +113,7 @@ path : `/lib/services/api_service.dart`
 메모리가아닌 핸드폰 저장소에 저장을 한다.(=localStorage)
 prefs.setStringList 를 이용하여 배열 형태로 저장함.
 
-key, list[] 형태로 좋아요한 id를 저장하는 예제.
+`key`, `list[]` 형태로 좋아요한 `id`를 저장하는 예제.
 
 path : `/lib/widgets/episode_widget.dart`
 
