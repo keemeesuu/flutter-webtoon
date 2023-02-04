@@ -96,18 +96,21 @@ https://webtoon-crawler.nomadcoders.workers.dev/776255/episodes
 
 http 를 사용하여 GET/POST 방식으로 서버 API를 호출할 수 있다.
 
-/lib/api_service.dart
+path : `/lib/services/api_service.dart`
 
-
-## url_launcher package
+## url_launcher
 
 `url_launcher` 패키지를 사용해 외부링크로 연결하는 방법을 알 수 있다.
 mail, https, tel, sms, file 을 외부링크로 걸 수 있다.
 
+path : `/lib/services/api_service.dart`
 
-## shared_preferences package
+## shared_preferences
 
 메모리가아닌 핸드폰 저장소에 저장을 한다.(=localStorage)
 prefs.setStringList 를 이용하여 배열 형태로 저장함.
 
 key, list[] 형태로 좋아요한 id를 저장하는 예제.
+
+path : `/lib/widgets/episode_widget.dart`
+
